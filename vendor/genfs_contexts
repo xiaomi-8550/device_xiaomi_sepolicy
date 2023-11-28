@@ -11,6 +11,7 @@ genfscon sysfs /devices/platform/soc/4804000.ufshc/host0/target0:0:0/0:0:0:0 u:o
 
 # Touchfeature
 genfscon proc "/tp_hal_version" u:object_r:proc_tp_file:s0
+genfscon sysfs "/class/touch/touch_dev/palm_sensor" u:object_r:sysfs_touchpanel:s0
 genfscon sysfs "/devices/virtual/touch/touch_dev/abnormal_event" u:object_r:sysfs_touch_hostprocess:s0
 genfscon sysfs "/devices/virtual/touch/touch_dev/clicktouch_raw" u:object_r:sysfs_touch_hostprocess:s0
 genfscon sysfs "/devices/virtual/touch/touch_dev/ear_sensor" u:object_r:sysfs_tp_virtual_prox:s0

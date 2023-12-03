@@ -1,2 +1,5 @@
+# Displayfeqture
+type vendor_hal_displayfeature_xiaomi_hwservice, hwservice_manager_type;
+
 # Touchfeature
 type touchfeature_device, dev_type;
